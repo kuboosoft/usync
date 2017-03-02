@@ -1,1 +1,2 @@
 # usync
+sync new package
