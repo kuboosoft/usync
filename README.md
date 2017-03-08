@@ -1,2 +1,2 @@
 # usync
-sync openssl + live555
+build ssl-freeworld
