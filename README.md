@@ -1,2 +1,2 @@
 # usync
-sync massive x264
+sync openssl + live555
