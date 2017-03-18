@@ -1,2 +1,2 @@
 # usync
-build ssl-freeworld
+dependencies for mass rebuild
