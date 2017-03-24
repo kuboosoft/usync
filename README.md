@@ -1,2 +1,2 @@
 # usync
-dependencies for mass rebuild.
+dependencies for mass rebuild for libbluray
