@@ -1,2 +1,2 @@
 # usync
-dependencies for openshot
+openshot and others packages
