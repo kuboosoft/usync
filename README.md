@@ -1,2 +1,2 @@
 # usync
-openshot and others packages
+gstreamer1-plugin-a52dec and others packages
