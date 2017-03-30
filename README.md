@@ -1,2 +1,2 @@
 # usync
-gstreamer1-plugin-a52dec and others packages
+gstreamer1-plugins-bad-free and others packages
