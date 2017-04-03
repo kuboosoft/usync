@@ -1,2 +1,2 @@
 # usync
-gstreamer1-plugins-bad-free and others packages
+Massive rebuild for Libbluray in F26, updated others packages
