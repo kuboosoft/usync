@@ -1,2 +1,2 @@
 # usync
-Updated packages
+Updated web-browsers
