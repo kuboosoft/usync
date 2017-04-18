@@ -1,2 +1,2 @@
 # usync
-Updated nvenc; cleaned old packages, stupid epoch tag, solved now
+Updated x265 with massive rebuild
