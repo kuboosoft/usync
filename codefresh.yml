@@ -5,7 +5,7 @@ steps:
   unibuild-usync:
     type: build
     description: UC - build step
-    image-name: davidva/usync
+    image_name: davidva/usync
     dockerfile: Dockerfile-all.txt
     tag: latest
     no_cache: true
