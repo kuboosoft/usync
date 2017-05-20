@@ -1,2 +1,2 @@
 # usync
-REbuilt and news packages
+REbuilt and news packages, security updates
