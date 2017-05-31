@@ -1,2 +1,2 @@
 # usync
-GST sync
+GST + openssl mitigation sync
