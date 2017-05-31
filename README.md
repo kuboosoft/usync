@@ -1,2 +1,2 @@
 # usync
-GST + openssl mitigation sync
+smplayer, GST i686 ; and finished openssl mitigation
