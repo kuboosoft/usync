@@ -1,2 +1,2 @@
 # usync
-openshot, kdenlive sync
+ffmpeg, steam syncthing and others sync
