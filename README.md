@@ -1,2 +1,2 @@
 # usync
-ffmpeg, steam syncthing and others sync
+openshot, opera, shotcut, mpv  and others sync
