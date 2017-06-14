@@ -1,2 +1,2 @@
 # usync
-openshot, opera, shotcut, mpv  and others sync
+pvr-addons, opera, vlc, gnome-mpv, steam  and others, sync
