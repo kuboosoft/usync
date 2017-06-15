@@ -1,2 +1,2 @@
 # usync
-pvr-addons, opera, vlc, gnome-mpv, steam  and others, sync
+flashplugin, rebuilt ffmpeg for libbluray 
