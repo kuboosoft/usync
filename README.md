@@ -1,2 +1,2 @@
 # usync
-flashplugin, rebuilt ffmpeg for libbluray 
+flashplugin, vlc 
