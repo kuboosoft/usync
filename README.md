@@ -1,2 +1,2 @@
 # usync
-flashplugin, vlc 
+gstreamer, unrar, peazip, unace and others 
