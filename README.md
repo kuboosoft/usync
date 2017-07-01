@@ -1,2 +1,2 @@
 # usync
-gstreamer, unrar, peazip, unace and others 
+gstreamer-plugins-base, opera, visualizations kodi addons 
