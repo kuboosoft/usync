@@ -1,2 +1,2 @@
 # usync
-gstreamer-plugins-base, opera, visualizations kodi addons 
+vlc, wps office lenguage, drobox for thunar, caja, dolphin, nemo, libcpuid, jedit 
