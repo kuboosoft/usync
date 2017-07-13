@@ -1,2 +1,2 @@
 # usync
-vlc, wps office lenguage, drobox for thunar, caja, dolphin, nemo, libcpuid, jedit 
+vaapi, opera, gstreamer1...gtk updated
