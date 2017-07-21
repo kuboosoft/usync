@@ -1,2 +1,2 @@
 # usync
-vaapi, opera, gstreamer1...gtk updated
+freetype-freeworld, opera updated
