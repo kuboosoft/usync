@@ -1,2 +1,2 @@
 # usync
-freetype-freeworld, opera updated
+live555, vlc, atom, apm updated
