@@ -1,2 +1,2 @@
 # usync
-live555, vlc, atom, apm updated
+faad2 mass rebuild, ffmpeg updated.
