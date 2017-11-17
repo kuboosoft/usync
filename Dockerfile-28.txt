@@ -3,8 +3,7 @@ FROM davidva/usync
 MAINTAINER David Va <davidva@tutanota.com>
 
 RUN rm -rf united-build \ 
-&& git clone https://github.com/kuboosoft/united-build.git \
-&& cd united-build \
+&& wget -c https://raw.githubusercontent.com/kuboosoft/united-build/master/sync-united \
 && chmod a+x sync-united \
 && ./sync-united -s 28 
 
