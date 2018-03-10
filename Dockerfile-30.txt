@@ -5,13 +5,10 @@ MAINTAINER David Va <davidva@tutanota.com>
 RUN rm -rf united-build \ 
 && wget -c https://raw.githubusercontent.com/kuboosoft/united-build/master/sync-united \
 && chmod a+x sync-united \
-&& ./sync-united -s 24 
+&& ./sync-united -s 30 
 
 
 VOLUME ["/var/lib/mock"]
 
 USER root
 CMD ["/bin/bash"]
-
-
-
