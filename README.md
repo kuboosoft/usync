@@ -1,3 +1,3 @@
 # usync
 
-sync tool
+sync tool.
