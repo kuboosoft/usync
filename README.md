@@ -1,3 +1,3 @@
 # usync
 
-sync tool, easy life.
+sync tool, easy life..
