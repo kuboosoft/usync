@@ -1,3 +1,3 @@
 # usync
 
-Sync tool, easy life. fresh all... new updates.
+Sync tool, easy life. fresh all... new updates...
