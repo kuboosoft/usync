@@ -1,3 +1,3 @@
 # usync
 
-Sync tool, easy life. fresh all.
+Sync tool, easy life. yes, isn't magic
