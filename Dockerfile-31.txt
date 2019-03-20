@@ -2,7 +2,7 @@ FROM davidva/usync
 
 MAINTAINER David Va <davidva@tutanota.com>
 
-RUN rm -rf united-build \ 
+RUN rm -rf sync-united \ 
 && wget -c https://raw.githubusercontent.com/kuboosoft/united-build/master/sync-united \
 && chmod a+x sync-united \
 && ./sync-united -s 31 
