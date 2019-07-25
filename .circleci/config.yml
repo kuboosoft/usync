@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker: 
-      - image: davidva/usync
+      - image: davidva/usync:latest
         auth:
           username: davidva
           password: $DOCKERHUB_PASSWORD  
