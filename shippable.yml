@@ -9,7 +9,7 @@ install: true
 
 integrations:                 
   hub:
-    - integrationName: davidva
+    - integrationName: usync
       type: dockerRegistryLogin
 
 # the build scripts
