@@ -4,13 +4,15 @@ jobs:
     docker: 
       - image: davidva/usync
         auth:
-        username: $U_NAME
+        username: davidva
         password: $D_PASS	
     working_directory: ~
     parallelism: 1
     steps:
       - checkout
-      - run: " cd / rm -rf united-build && wget -c https://raw.githubusercontent.com/kuboosoft/united-build/master/sync-united && chmod a+x sync-united && ./sync-united -s 29" 
+      - run: |
+          docker login -u davidva -p $D_PASS
+          cd / rm -rf united-build && wget -c https://raw.githubusercontent.com/kuboosoft/united-build/master/sync-united && chmod a+x sync-united && ./sync-united -s 29 
 workflows:
   version: 2
   build_and_test:
