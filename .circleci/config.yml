@@ -2,10 +2,7 @@ version: 2
 jobs:
   build:
     docker: 
-      - image: fedora:30
-        auth:
-          username: davidva
-          password: $DOCKERHUB_PASSWORD  
+      - image: fedora:30 
     working_directory: ~
     parallelism: 1
     steps:
