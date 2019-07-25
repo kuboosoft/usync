@@ -10,8 +10,7 @@ jobs:
     parallelism: 1
     steps:
       - checkout
-      - run: |
-- docker run --privileged=true --cap-add=SYS_ADMIN -u davidva -p $DOCKERHUB_PASSWORD -v $(pwd)/30:/root/enjoy/ davidva/unibuild-30 /bin/sh -c "cd / && rm -f sync-united && wget -c https://raw.githubusercontent.com/kuboosoft/united-build/master/sync-united && chmod a+x sync-united && ./sync-united -s 29" 
+      - run: docker run --privileged=true --cap-add=SYS_ADMIN -u davidva -p $DOCKERHUB_PASSWORD -v $(pwd)/30:/root/enjoy/ davidva/unibuild-30 /bin/sh -c "cd / && rm -f sync-united && wget -c https://raw.githubusercontent.com/kuboosoft/united-build/master/sync-united && chmod a+x sync-united && ./sync-united -s 29" 
 workflows:
   version: 2
   build_and_test:
