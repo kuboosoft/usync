@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run: |
          echo "$DOCKERHUB_PASSWORD" | docker login --username davidva --password-stdin
-         docker run --privileged=true --cap-add=SYS_ADMIN davidva/usync /bin/sh -c "cd / && rm -f sync-united && wget -c https://raw.githubusercontent.com/kuboosoft/united-build/master/sync-united && chmod a+x sync-united && ./sync-united -s 29" 
+         cd / && rm -f sync-united && wget -c https://raw.githubusercontent.com/kuboosoft/united-build/master/sync-united && chmod a+x sync-united && ./sync-united -s 29 
 workflows:
   version: 2
   build_and_test:
