@@ -11,6 +11,7 @@ jobs:
     steps:
       - checkout
       - run: |
+          docker login -u davidva -p $DOCKERHUB_PASSWORD
           cd / rm -rf united-build && wget -c https://raw.githubusercontent.com/kuboosoft/united-build/master/sync-united && chmod a+x sync-united && ./sync-united -s 29 
 workflows:
   version: 2
