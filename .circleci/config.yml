@@ -7,7 +7,9 @@ jobs:
     parallelism: 1
     steps:
       - checkout
-      - run: |
+      - run:
+          name: Build and push Docker image
+          command: |
          echo "$DOCKERHUB_PASSWORD" | docker login --username davidva --password-stdin
          cd / && rm -f sync-united && wget -c https://raw.githubusercontent.com/kuboosoft/united-build/master/sync-united && chmod a+x sync-united && ./sync-united -s 29 
 workflows:
