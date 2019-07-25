@@ -2,7 +2,10 @@ version: 2
 jobs:
   build:
     docker: 
-      - image: davidva/usync	
+      - image: davidva/usync
+        auth:
+        username: $U_NAME
+        password: $D_PASS	
     working_directory: ~
     parallelism: 1
     steps:
