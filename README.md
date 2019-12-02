@@ -2,4 +2,4 @@
 
 Sync tool, easy life. yes, isn't magic...
 
-#f32 sync. 95%
+#f32 sync. 98%
