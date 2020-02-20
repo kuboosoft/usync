@@ -2,4 +2,4 @@
 
 Sync tool, easy life. yes, isn't magic...
 
-#  f33 unibuild-basic
+#  f33 sync
