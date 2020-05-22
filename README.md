@@ -2,4 +2,4 @@
 
 Sync tool, easy life. yes, isn't magic...
 
-#  f33 sync 5
+#  f30 sync
