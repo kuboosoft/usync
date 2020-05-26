@@ -5,11 +5,12 @@ MAINTAINER David Va <davidva@tutanota.com>
 RUN rm -rf united-build \ 
 && git clone https://github.com/kuboosoft/united-build.git \
 && cd united-build \
-&& chmod a+x sync-united \ 
-&& ./sync-united -s 29 \ 
+&& chmod a+x sync-united \  
 && ./sync-united -s 30 \ 
 && ./sync-united -s 31 \ 
-&& ./sync-united -s 32  
+&& ./sync-united -s 32 \ 
+&& ./sync-united -s 33 \  
+&& ./sync-united -s 34  
 
 VOLUME ["/var/lib/mock"]
 
