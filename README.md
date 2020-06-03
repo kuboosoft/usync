@@ -1,5 +1,5 @@
 # usync
 
-Sync tool, easy life. yes, isn't magic...
+Sync tool, easy life. yes, isn't magic.
 
-#  f30 sync, test changes again
+#  f32 sync, test changes again
