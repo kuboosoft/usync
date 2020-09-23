@@ -2,4 +2,4 @@
 
 Sync tool, easy life. yes, isn't magic.
 
-#  f34 mass
+#  f34 sync
