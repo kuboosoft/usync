@@ -9,4 +9,4 @@ steps:
     dockerfile: Dockerfile-all.txt
     tag: latest
     no_cache: true
-#    privileged: true
+##    privileged: true
