@@ -19,4 +19,4 @@ jobs:
       - name: build
         shell: bash
         run: |
-          docker run --privileged=true --cap-add=SYS_ADMIN -v $(pwd)/32:/root/enjoy/ davidva/usync /bin/sh -c "cd / && rm -f sync-united && wget -c https://raw.githubusercontent.com/kuboosoft/united-build/master/sync-united && chmod a+x sync-united && ./sync-united -s 32"
+          cd / && rm -f sync-united && wget -c https://raw.githubusercontent.com/kuboosoft/united-build/master/sync-united && chmod a+x sync-united && ./sync-united -s 32
